@@ -1,0 +1,6 @@
+venv/
+.env
+model/best.pt
+__pycache__/
+*.pyc
+.DS_Store
