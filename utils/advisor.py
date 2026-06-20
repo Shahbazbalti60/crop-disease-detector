@@ -27,7 +27,7 @@ Please provide advice in this exact JSON format:
 Respond with only the JSON, no extra text."""
 
     response = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="llama-3.3-70b-versatile",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3,
     )
